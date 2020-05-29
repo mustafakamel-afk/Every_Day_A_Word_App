@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/email"
+    android:title="اتصل بنا"
+     app:showAsAction="always"
+    android:icon="@drawable/email"
+    ></item>
+    <item android:id="@+id/list"
+        android:title="كلاماتك"
+        app:showAsAction="always"
+        android:icon="@drawable/list_of_words_2"
+        ></item>
+    <item android:id="@+id/memo"
+        android:title="ملاحظاتك"
+        app:showAsAction="always"
+        android:icon="@drawable/memo_2"
+        ></item>
+
+</menu>
